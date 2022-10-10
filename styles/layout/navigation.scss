@@ -1,0 +1,47 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  border: 1px solid red;
+  justify-content: space-between;
+}
+
+.nav__left {
+  position: relative;
+  border: 1px solid green;
+  width: 14vw;
+  margin-left: 8.33vw;
+  padding-bottom: 8.83%;
+  height: 100%;
+}
+
+.nav__left__logo {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.nav__right {
+  border: 1px solid green;
+  margin-right: 8.33vw;
+  display: flex;
+  align-items: center;
+  gap: 2.08vw;
+}
+
+.nav__right__links {
+  display: flex;
+  align-items: center;
+  gap: 2.08vw;
+}
+
+.nav__right__links li a {
+  color: white;
+  font-size: 0.9vw;
+  letter-spacing: 0.27vw;
+  text-decoration: none;
+  text-transform: uppercase;
+}
